@@ -33,10 +33,11 @@ A_data_preprocessing.ipynb             - Homework 2 reference
 
 ## Plan
 
--Improve prediction through different hyperparams and ML models.  
--Compare different imputation strategies, (filling nan values with mean, median, mode, interpolation)  
--add additional classifiers, and compare results  
--investigate whether date features can be of use through encoding.  
-Unify our codes and polish them.  
+- Improve prediction through different hyperparams and ML models.  
+- Compare different imputation strategies, (filling nan values with mean, median, mode, interpolation)  
+- add additional classifiers, and compare results  
+- investigate whether date features can be of use through encoding.  
+- Unify our codes and polish them.  
+- analyze support vectors in svc to see how complex the decision boundary is.
 
 
