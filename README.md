@@ -13,30 +13,30 @@ There is also date data, but for now we drop those columns for prediction. The n
 
 ## Dataset
 Dataset:
-The primary dataset used in this project is 'breast_cancer_survival.csv'.
-Target: 'Patient_Status'
-Features: 'Age', 'Gender', 'Protein1', 'Protein2', 'Protein3', 'Protein4', 'Tumour_Stage', 'Histology', 'ER status', 'PR status', 'HER2 status', 'Surgery_type', 'Date_of_Surgery', 'Date_of_Last_Visit'
+The primary dataset used in this project is 'breast_cancer_survival.csv'.  
+Target: 'Patient_Status'  
+Features: 'Age', 'Gender', 'Protein1', 'Protein2', 'Protein3', 'Protein4', 'Tumour_Stage', 'Histology', 'ER status', 'PR status', 'HER2 status', 'Surgery_type', 'Date_of_Surgery', 'Date_of_Last_Visit'  
 
-Date columns:'Surgery_type', 'Date_of_Surgery'
+Date columns:'Surgery_type', 'Date_of_Surgery'  
 
-The notebook right now drops the date data, we will later figure out a way to encode the data to see if it affects the classification.
+The notebook right now drops the date data, we will later figure out a way to encode the data to see if it affects the classification.  
 
 ## Files:
-breast_cancer_survival.csv             - primary dataset
-Falcon_Heflin_447_ch3_V1-2Heflin.ipynb - Joshuas Notebook
-final_project1.ipynb                   - Christians Notebook
-METABRIC_RNA_Mutation.csv              - Secondary Dataset
-BRCA.csv                               - Extra Dataset that I found
-references:
-ECE_645_Kernel_Methods_strat.ipynb     - Code reference from project from another class
-A_data_preprocessing.ipynb             - Homework 2 reference
+breast_cancer_survival.csv             - primary dataset  
+Falcon_Heflin_447_ch3_V1-2Heflin.ipynb - Joshuas Notebook  
+final_project1.ipynb                   - Christians Notebook  
+METABRIC_RNA_Mutation.csv              - Secondary Dataset  
+BRCA.csv                               - Extra Dataset that I found  
+references:  
+ECE_645_Kernel_Methods_strat.ipynb     - Code reference from project from another class  
+A_data_preprocessing.ipynb             - Homework 2 reference  
 
 ## Plan
 
--Improve prediction through different hyperparams and ML models.
--Compare different imputation strategies, (filling nan values with mean, median, mode, interpolation)
--add additional classifiers, and compare results
--investigate whether date features can be of use through encoding.
-Unify our codes and polish them.
+-Improve prediction through different hyperparams and ML models.  
+-Compare different imputation strategies, (filling nan values with mean, median, mode, interpolation)  
+-add additional classifiers, and compare results  
+-investigate whether date features can be of use through encoding.  
+Unify our codes and polish them.  
 
 
