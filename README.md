@@ -4,8 +4,8 @@ Machine learning final project
 Breast Cancer Survival Classification
 
 Authors: 
-Joshua Heflin(Flacon_Heflin_447_ch3_V1-2Heflin.ipynb), 
-Christian Falcon(final_project1.ipynb)
+Joshua Heflin 
+Christian Falcon
 
 This project builds a classification workflow for the breast cancer survival dataset
 The goal is to predict 'patient_status' which is alive or deceased from a comabination of clinical and protein features.
